@@ -1,0 +1,78 @@
+/*general css*/
+html, body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+h1, h3, p{
+  text-align: center;
+  font-family: monospace;
+}
+
+h1{
+  font-size: 40px;
+}
+
+h3{
+  font-size: 20px;
+}
+
+p{
+  font-size: 16px;
+}
+
+/* */
+#bigdiv{
+  justify-content: space-around;
+  display: flex;
+}
+
+#partOne{
+  width: 50%;
+  height: 90vh;
+  background-color: #f2dab5;
+}
+
+#partOne img{
+  margin-left: 80%;
+  height: 100px;
+}
+
+#partTwo{
+  width: 50%;
+  height: 90vh;
+  background-color: #f4f4f4;
+}
+
+#partTwo img{
+  margin-left: 5%;
+  height: 100px;
+}
+/*dices*/
+#dice{
+  display: flex;
+  justify-content: center;
+}
+.imagedice img{
+  box-shadow: 0px 0px 36px 6px #a8a3a3;
+}
+/*current score*/
+.current{
+  margin-left: 42.5%;
+  background-color: #ffbb4f;
+  padding: 2%;
+  height: 60px;
+  width: 12%;
+}
+.current p{
+  font-weight: bold;
+}
+/*buttons*/
+#rolldice{
+  margin-left: 85%;
+}
+#hold{
+  margin-left: 2%;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="dice.css">
+    <title>Roll Dice</title>
+  </head>
+  <body>
+    <h1>NEW GAME</h1>
+
+    <div id="bigdiv">
+      <!--player1-->
+      <div id="partOne">
+        <div id="player1" class="player">
+          <h3>PLAYER 1</h3>
+            <div id="scoretotal1"><p><p></div>
+            <div id="dice1" class="imagedice"><img id="image1" src="images/dice-3.png"></div>
+              <div class="current">
+                <p>CURRENT:</p>
+                <p id="score1"></p>
+            </div>
+        </div>
+        <button id="rolldice" class="button">ROLL DICE</button>
+      </div>
+<!--haflway-->
+
+
+      <!--player2-->
+      <div id="partTwo">
+        <div id="player2" class="player">
+          <h3>PLAYER 2</h3>
+            <div id="scoretotal2"><p></p></div>
+            <div id="dice2" class="imagedice"><img id="image2" src="images/dice-2.png"></div>
+              <div class="current">
+                <p>CURRENT:</p>
+                <p id="score2"></p>
+              </div>
+        </div>
+        <button id="hold" class="button">HOLD</button>
+      </div>
+    </div>
+
+<!--JS-->
+    <script type="text/javascript" src="dice.js"></script>
+
+  </body>
+</html>
